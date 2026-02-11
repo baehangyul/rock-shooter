@@ -12,6 +12,9 @@ y_down = (keyboard_check(ord("S")) && y < room_height - sprite_width / 2);
 x += (x_right - x_left) * player_speed;
 y += (y_down - y_up) * player_speed;
 
+if(normal_bullet_delay > 0){
+	normal_bullet_delay -= 1;
+}
 
 
 // D만 눌렀을 때 = true - false = 1 - 0 = 1

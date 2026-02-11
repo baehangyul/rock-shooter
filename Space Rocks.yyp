@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_rock_big","path":"objects/obj_rock_big/obj_rock_big.yy",},},
     {"id":{"name":"obj_rock_small","path":"objects/obj_rock_small/obj_rock_small.yy",},},
