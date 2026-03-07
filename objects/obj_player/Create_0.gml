@@ -1,1 +1,3 @@
-normal_bullet_delay = 30;
+normal_bullet_delay = 15;
+hp = 5;
+scores = 0;

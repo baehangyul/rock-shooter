@@ -16,7 +16,10 @@ if(normal_bullet_delay > 0){
 	normal_bullet_delay -= 1;
 }
 
-
+if(hp <= 0){
+	instance_destroy();
+	show_message("Game over \n your scores is "+ string(scores));
+}	
 // D만 눌렀을 때 = true - false = 1 - 0 = 1
 // A만 눌렀을 떄 = false - true = 0 - 1 = -1
 // A와 D를 동시에 눌렀을 때 = 1 - 1 = 0
