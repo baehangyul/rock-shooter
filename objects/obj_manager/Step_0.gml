@@ -1,0 +1,1 @@
+bigrock_spawn_speed = 180;

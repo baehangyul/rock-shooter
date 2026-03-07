@@ -1,0 +1,1 @@
+normal_bullet_delay = 30;
