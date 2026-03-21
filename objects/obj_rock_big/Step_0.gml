@@ -3,4 +3,10 @@ if(hp <= 0){
 }
 
 
-direction = point_direction(x ,y ,obj_player.x ,obj_player.y);
+if(dir == 0){
+image_angle += speed / 2;
+}
+
+else if(dir == 1){
+image_angle -= speed / 2;
+}

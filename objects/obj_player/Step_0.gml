@@ -12,11 +12,15 @@ y_down = (keyboard_check(ord("S")) && y < room_height - sprite_width / 2);
 x += (x_right - x_left) * player_speed;
 y += (y_down - y_up) * player_speed;
 
-if(normal_bullet_delay > 0){
-	normal_bullet_delay -= 1;
+if(global.normal_bullet_delay > 0){
+	global.normal_bullet_delay -= 1;
 }
 
-if(hp <= 0){
+if(global.ricochet_cool > 0){
+	global.ricochet_cool -= 1;
+}
+
+if(global.hp <= 0){
 	instance_destroy();
 	show_message("Game over \n your scores is "+ string(scores));
 }	

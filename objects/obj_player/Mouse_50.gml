@@ -1,4 +1,4 @@
-if(normal_bullet_delay == 0){
+if(global.normal_bullet_delay == 0){
 	instance_create_depth(x,y,0,obj_bullet);
-	normal_bullet_delay += 30;
+	global.normal_bullet_delay += 15;
 }
