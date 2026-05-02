@@ -16,8 +16,10 @@ else if(nearest1_dis > nearest2_dis){
 	}
 }
 
+if(global.ricochet_spawn_time = 60){
 instance_destroy();
-
+global.ricochet_spawn_time = 0;
+}
 
 /*	
 if(point_distance(x, y, nearest.x, nearest.y) < 200){
