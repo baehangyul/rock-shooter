@@ -7,7 +7,7 @@ if(global.warning_path_cool > 0){
 
 	
 if(global.warning_location == 0){ //위치 x좌표 0~1920, y좌표 0~360
-		instance_create_depth(warning_path_location_x , warning_path_location_y, 0, obj_warning_path);
+		instance_create_depth(warning_path_location_x , warning_path_location_y, 0, obj_warning_path_top);
 global.warning_path_cool = global.warning_path_cool + irandom(60);  
 } //위험경로 위치 선정 위
 
