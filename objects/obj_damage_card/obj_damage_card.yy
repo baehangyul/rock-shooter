@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_warning_path_top",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_damage_card",
+  "eventList":[],
   "managed":true,
-  "name":"obj_warning_path_top",
+  "name":"obj_damage_card",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_warning_path",
-    "path":"sprites/spr_warning_path/spr_warning_path.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

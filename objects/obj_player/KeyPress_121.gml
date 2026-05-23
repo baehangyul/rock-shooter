@@ -1,0 +1,1 @@
+global.level_up_point += 100;

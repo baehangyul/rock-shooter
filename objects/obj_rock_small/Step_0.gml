@@ -1,5 +1,6 @@
 if(hp <= 0){
 	instance_destroy();
+	global.level_up_point = global.level_up_point + 1 + (global.player_level - 1);
 }
 
 

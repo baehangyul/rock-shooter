@@ -1,4 +1,9 @@
-
+if(global.level_up_point >= global.subject_point){
+	global.player_level += 1;
+	global.level_up_point = 0;
+	global.subject_point = 50 * power(1.5, global.player_level - 1);
+	room_speed = 1;
+}
 
 /*
 if(global.spawn_time > 0){
